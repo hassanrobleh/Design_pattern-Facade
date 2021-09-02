@@ -10,4 +10,4 @@ ou à n’importe quel ensemble complexe de classes.
 $ git clone 
 $ cd Design_pattern-Abstract-Factory
 $ npm install
-$ npm 
+$ npm run test

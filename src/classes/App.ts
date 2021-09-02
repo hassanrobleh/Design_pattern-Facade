@@ -25,10 +25,7 @@ export class App {
 
         const homeCinema: FacadeHomeCinema = new FacadeHomeCinema(amp, tuner, dvd, cd, projecteur, ecran, lumiere, machineAPopcorn);
 
-        // homeCinema.regarderFilm("Hôtel du nord");
         return homeCinema.arreterFilm();
-
-
     }
 
     voirFilm() {
@@ -44,13 +41,6 @@ export class App {
 
         const homeCinema: FacadeHomeCinema = new FacadeHomeCinema(amp, tuner, dvd, cd, projecteur, ecran, lumiere, machineAPopcorn);
 
-        // return homeCinema.cd.jouer()
-        // return homeCinema.arreterFilm();
         return homeCinema.regarderFilm("Hôtel du nord");
-
     }
-
 }
-
-// const app = new App();
-// app.main();

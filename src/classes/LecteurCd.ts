@@ -2,14 +2,8 @@ import { Amplificateur } from './Amplificateur';
 
 export class LecteurCd {
 
-
-    // amp: Amplificateur;
-
-    // constructor(amp: Amplificateur) {
-    //     this.amp = amp;
-    // }
-
     marche() {
+        console.log("LEcteur")
         return "Lecteur cd marché";
     }
 

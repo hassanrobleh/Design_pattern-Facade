@@ -1,11 +1,11 @@
 export class Ecran {
 
     monter() {
-        console.log("Ecran monté");
+        return "Ecran monté";
     }
 
     baisser() {
-        console.log("Ecran baissé");
+        return "Ecran baissé";
     }
 
 

@@ -26,7 +26,7 @@ export class App {
         const homeCinema: FacadeHomeCinema = new FacadeHomeCinema(amp, tuner, dvd, cd, projecteur, ecran, lumiere, machineAPopcorn);
 
         homeCinema.regarderFilm("Hôtel du nord");
-        homeCinema.arreterFilm();
+        return homeCinema.arreterFilm();
 
 
     }

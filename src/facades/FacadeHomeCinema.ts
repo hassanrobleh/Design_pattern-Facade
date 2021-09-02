@@ -30,8 +30,7 @@ export class FacadeHomeCinema {
     }
 
     regarderFilm(film: string) {
-        console.log("Vous allez voir un bon film ...");
-
+        
         this.machineAPopcorn.marche();
         this.machineAPopcorn.eclater();
         this.lumiere.attenuer(10);
@@ -43,11 +42,12 @@ export class FacadeHomeCinema {
         this.amp.setVolume(5);
         this.dvd.marche();
         this.dvd.jouer(film);
+        
+        return "Vous allez voir un bon film ...";
     }
 
     arreterFilm() {
-        console.log("C'est la fin du film ...");
-
+        
         this.machineAPopcorn.arret();
         this.lumiere.marche();
         this.ecran.monter();
@@ -56,6 +56,8 @@ export class FacadeHomeCinema {
         this.dvd.stop();
         this.dvd.ejecter();
         this.dvd.arret();
+        
+        return "C'est la fin du film ...";
     }
 
 }

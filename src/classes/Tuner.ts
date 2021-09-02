@@ -9,23 +9,23 @@ export class Tuner {
     // }
 
     marche() {
-        console.log("Tunner cd marché");
+        return "Tunner cd marché";
     }
 
     arret() {
-        console.log("Tunner cd arrêté");
+        return "Tunner cd arrêté";
     }
 
     setAm() {
-        console.log("Tunner Am")
+        return "Tunner Am";
     }
 
     setFm() {
-        console.log("Tunner Fm")
+        return "Tunner Fm";
     }
 
     setFrequence() {
-        console.log("Tunner frequence");
+        return "Tunner frequence";
     }
 
 

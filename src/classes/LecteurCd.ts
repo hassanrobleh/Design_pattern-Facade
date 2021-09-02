@@ -10,27 +10,27 @@ export class LecteurCd {
     // }
 
     marche() {
-        console.log("Lecteur cd marché");
+        return "Lecteur cd marché";
     }
 
     arret() {
-        console.log("Lecteur cd arrêté");
+        return "Lecteur cd arrêté";
     }
 
     ejecter() {
-        console.log("Lecteur cd ejecté");
+        return "Lecteur cd ejecté";
     }
 
     pause() {
-        console.log("Lecteur cd pause");
+        return "Lecteur cd pause";
     }
 
     jouer() {
-        console.log("Lecteur cd joué");
+        return "Lecteur cd joué";
     }
 
     stop() {
-        console.log("Lecteur cd stop");
+        return "Lecteur cd stop";
     }
 
 

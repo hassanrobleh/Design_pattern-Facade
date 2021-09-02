@@ -2,14 +2,14 @@ export class Lumieres {
 
 
     marche() {
-        console.log("Lumière marché")
+        return "Lumière marché";
     }
 
     arret() {
-        console.log("Lumière arreté")
+        return "Lumière arreté";
     }
 
     attenuer(nombre: number) {
-        console.log(nombre)
+        return nombre
     }
 }

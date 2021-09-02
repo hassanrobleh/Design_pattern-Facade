@@ -9,37 +9,35 @@ export class LecteurDvd {
     // }
 
     marche() {
-        console.log("Lecteur dvd marché");
+        return "Lecteur dvd marché";
     }
 
     arret() {
-        console.log("Lecteur dvd arrêté");
+        return "Lecteur dvd arrêté";
     }
 
     ejecter() {
-        console.log("Lecteur dvd ejecté");
+        return "Lecteur dvd ejecté";
     }
 
     pause() {
-        console.log("Lecteur dvd pause");
+        return "Lecteur dvd pause";
     }
 
     jouer(chaine: string) {
-        console.log(chaine);
+        return chaine;
     }
 
     setAudioSurround() {
-        console.log("Lecteur dvd audio surround");
+        return "Lecteur dvd audio surround";
     }
 
     setAudioStereo() {
-        console.log("Lecteur dvd audio stereo");
+        return "Lecteur dvd audio stereo";
     }
 
     stop() {
-        console.log("Lecteur dvd stop");
+        return "Lecteur dvd stop";
     }
-
-
 
 }

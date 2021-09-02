@@ -1,19 +1,19 @@
 export class Projecteur {
 
     marche() {
-        console.log("Projecteur marché");
+        return "Projecteur marché";
     }
 
     arret() {
-        console.log("Projecteur arreté");
+        return "Projecteur arreté";
     }
 
     modeTV() {
-        console.log("Projecteur en mode tv");
+        return "Projecteur en mode tv";
     }
 
     modeGrandEcran() {
-        console.log("Projecteur en mode grand ecran");
+        return "Projecteur en mode grand ecran";
     }
 
     

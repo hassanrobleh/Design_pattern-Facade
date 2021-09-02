@@ -3,7 +3,6 @@ import { Amplificateur } from './Amplificateur';
 export class LecteurCd {
 
     marche() {
-        console.log("LEcteur")
         return "Lecteur cd marché";
     }
 
